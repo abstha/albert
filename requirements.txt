@@ -1,5 +1,7 @@
-# Run pip install --upgrade pip if tensorflow 1.15 cannot be found
-tensorflow==1.15.2   # CPU Version of TensorFlow
-tensorflow_hub==0.7
-# tensorflow-gpu==1.15  # GPU version of TensorFlow
-sentencepiece
+# Core deep learning + model hub
+torch           # PyTorch, installs CPU wheel by default in Codespaces
+transformers    # Hugging Face library (ALBERT, BERT, GPT-2, etc.)
+datasets        # Hugging Face datasets (GLUE, SQuAD, etc.)
+evaluate        # For metrics (accuracy, F1, etc.)
+accelerate      # Training helpers, distributed utils
+sentencepiece   # Tokenizer dependency for ALBERT
